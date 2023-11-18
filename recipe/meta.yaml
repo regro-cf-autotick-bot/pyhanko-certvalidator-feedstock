@@ -1,5 +1,5 @@
 {% set name = "pyhanko-certvalidator" %}
-{% set version = "0.26.0" %}
+{% set version = "0.26.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyhanko-certvalidator-{{ version }}.tar.gz
-  sha256: 994d5a8c2cb73062e757666d8044cd52dc1369bf5b9a21aa053e0dfba10b3ea7
+  sha256: d23937f90b52c934e358de3c65dfe2b7ac0b8f563f06ce14c31adc35a52f23bb
 
 build:
   number: 0
